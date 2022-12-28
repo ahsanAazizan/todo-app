@@ -1,4 +1,4 @@
-## ToDo List
+## ToDo App
 
 download: git clone https://github.com/ahsanAazizan/todo-app.git
 
