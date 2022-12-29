@@ -15,7 +15,7 @@ app.use(errorHandlerMiddleware)
 
 const port = process.env.PORT;
 
-(async () => {
+async function setup() {
   try {
     await connectDB(process.env.URI);
     app.listen(port, () =>
@@ -24,4 +24,6 @@ const port = process.env.PORT;
   } catch (error) {
     console.log(error);
   }
-})()
+}
+
+setup()
