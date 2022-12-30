@@ -8,3 +8,6 @@ npm i
 npm start
 ```
 to run the project locally.
+
+Download and Install NodeJS: 
+https://nodejs.org/dist/v18.12.1/node-v18.12.1-x64.msi
